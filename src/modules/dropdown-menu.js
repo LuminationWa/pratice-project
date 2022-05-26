@@ -1,4 +1,5 @@
 const dropdownMenu = (() => {
+    
     const addFunctionability = () => {
         // Mostly getting elements, makes the HTMLcolleciton into an array and then runs the checkStatus function on each element while also counting up so the dropdownmenu's id is correct
         const dropdownBtn = document.getElementsByClassName('menu-button');
