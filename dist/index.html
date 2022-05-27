@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
     <script src="main.js" defer></script>
 </head>
+
 <body>
     <header>
-
         <div id="Dropdown-Menu">
             <button class="dropdown menu-button">Menu</button>
             <div class="dropdown-buttons" id="dropdown1">
@@ -27,17 +28,35 @@
                 <button class="dropdown">Buttton 6</button>
             </div>
         </div>
-
     </header>
     <div class="main-content">
-        <img class="arrow" id="left-arrow" src="./src/images/right-arrow.png" alt="left arrow">
+        <img class="arrow" id="left-arrow" src="./src/images/right-arrow.png" alt="left arrow" />
         <div id="display">
-            <img class="slide" id="img0" src="./src/images/bird-g8aa18057e_640..jpg" alt="bird">
-            <img class="slide" id="img1" src="./src/images/dogs-g27c83a006_640..jpg" alt="dog">
-            <img class="slide" id="img2" src="./src/images/monkeys-geb5b19b16_640.jpg" alt="monkeys">
+            <img class="slide" id="img0" src="./src/images/bird-g8aa18057e_640..jpg" alt="bird" />
+            <img class="slide" id="img1" src="./src/images/dogs-g27c83a006_640..jpg" alt="dog" />
+            <img class="slide" id="img2" src="./src/images/monkeys-geb5b19b16_640.jpg" alt="monkeys" />
         </div>
-        <img class="arrow" id="right-arrow" src="./src/images/right-arrow.png" alt="right arrow">
+        <img class="arrow" id="right-arrow" src="./src/images/right-arrow.png" alt="right arrow" />
+        <div class="validation-form-div">
+            <form action="" id="validation-form">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+
+                <label for="country">Country</label>
+                <input type="text" name="country" id="country" />
+
+                <label for="zip-code">Zip code</label>
+                <input type="number" name="zip-code" id="zip-code" />
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" name="confirm-password" id="confirm-password" />
+            </form>
+            <button type="submit" form="validation-form">Submit</button>
+        </div>
     </div>
-    
 </body>
+
 </html>
